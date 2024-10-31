@@ -3,7 +3,7 @@ orbs:
   python: circleci/python@2.0.3
   
 jobs:
-  # job to build Docker container containing Python application
+  # This is a job to build Docker container containing Python application
   build:
     docker:
       - image: cimg/python:3.10.4
